@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width:500px; margin:10px auto;
+        }
+        #middle{
+            overflow:hidden; height:100px; display:flex;}
+        #left {
+            float:left; width:150px;background:red; height:100px;
+        }
+        #right {
+            float:right; width:150px;background:blue; height:100px;
+        }
+        #top,#bottom {background:green; height:50px;}
+    </style>
+</head>
+<body>
+    <div id="top">첫번째</div>
+    <div id="middle">두번째<br>
+        <div id="left">두번째 -> 왼쪽</div>
+        <div id="right">두번째 -> 오른쪽</div>
+    </div>
+    <div id="bottom">세번째</div>
+</body>
+</html>
